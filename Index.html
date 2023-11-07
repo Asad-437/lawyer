@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>marbel </title>   
+</head>
+<style>
+       *{
+        margin:0px;
+        padding:0px;
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       }
+       body{
+        /* min-height: 100vh; */
+         }
+         header{
+            position: fixed;
+          width:350vh;
+          background: rgb(133, 126, 126);
+        
+            box-shadow: 0 5px 10px rgb(68, 65, 65);
+            /* margin:35px; */
+            padding:20px 70px;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+         }
+       
+        header .navbar ul{
+             list-style:none ; 
+             display:flex;  
+             padding:20px ;
+              margin-left: 100px;
+        }
+       
+        header .navbar ul li{
+            /* display:flex; */
+            position:relative;
+            /* text-align: right; */
+
+            float: left;
+
+        }
+        header .navbar ul li a{
+            font-size: 39px;
+            /* display:flex; */
+            padding:30px;
+            /* text-align: right; */
+            color:rgb(41, 39, 36);
+            display:block;
+}
+header .navbar ul li a:hover{
+    background:2px solid black;
+    color:rgb(138, 108, 91);
+
+}
+header .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background:  rgb(190, 175, 175);
+    float:1;
+    display: none;
+}
+header .navbar ul li ul li{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+   
+    border-top: 1px solid rgb(133, 126, 126);
+}
+header .navbar ul li ul li ul{
+    flex-direction: column;
+    display: flex;
+    left:200px;
+    top:0;
+}
+header .navbar ul li:hover > ul{
+    display:initial;
+
+}
+.container{
+    display:flex; 
+    background: url('https://zsoltgranitecorporation.com/files/img/kitchen/marble/marble-kitchen-countertops-1.jpg') no-repeat center center/cover;
+    /* width:200vh; */
+    height:600px; 
+    text-align: center;
+     text-decoration:double;
+     padding:80px;
+     margin:30px;
+
+}
+.heading{
+    text-align: center; 
+    color: #1d1818;
+     text-shadow: 2px rgb(133, 126, 126);
+
+    margin:180px;
+    padding:40px  ; 
+    font-size: 48px;
+    text-decoration:double;
+    font-family: 'fantasy';
+}
+      .container1{
+        margin:10px;
+    display:flex;
+    /* background:rgb(179, 221, 211); */
+}
+.container1 img{
+    border-radius: 150px;
+    width:300px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    height:250px;
+}
+
+     .natural{
+        margin:10px;
+        padding:10px;
+        text-align: center;
+        /* width:250px; */
+        /* height:250px; */
+        border-radius: 50px;
+        /* justify-content: center; */
+    }
+    .manmade{
+        /* width:250px; */
+        /* height:250px; */
+        /* justify-content: center; */
+        text-align: center;
+        border-radius: 50px;
+    }
+    .acessories{
+        margin:10px;
+        padding:10px;
+        /* justify-content: center; */
+        text-align: center;
+        /* width:250px; */
+        /* height:250px; */
+        border-radius: 50px;
+    }
+    .container2{
+        display:flex;
+        background:rgb(133, 126, 126);
+        border-radius:170px;
+        padding:45px;
+        margin:20px;
+        height:200px;
+    }
+    .container2 img{
+        margin:-17px;
+        border-radius:150px;
+        width:300px;
+        height:250px;
+       
+    }
+    .aboutus{
+        border-radius: 100px;
+        text-align: center;
+        margin:10px;
+        padding:-20px;
+        background:2px solid rgb(138, 108, 91);
+        color:black;
+
+    }
+    .container3{
+height:300px;
+        display:flex;
+        background:rgb(133, 126, 126);
+        color:bisque;
+        /* align-items: center; */
+
+    }
+    .contact{
+        font-size: 20px;
+        text-align:center;
+        border-radius: 180px;
+        width:1450px;
+        padding:19px;
+        margin:10px;
+        background:rgb(68, 65, 65);
+    }
+    .container3 a{
+        color:bisque;
+
+    }
+    .container3 a:hover{
+        color:rgb(147, 224, 22);
+
+    }
+
+    .container3 img{
+        width:50px;
+        height:50px;
+        border-radius: 170px;
+
+    }
+    html{
+       scroll-behavior: smooth;
+}
+  .logo1 img{
+    width:180px;
+    height:150px;
+    
+    border-radius: 80px;
+    border:2px solid rgb(138, 108, 91);
+
+  }
+ header .navbar{
+    display:flex;
+    /* padding:10px; */
+ }
+     @media (max-width: 920px ) {
+        .container{
+            width: 950px;
+        }
+        .container2{
+            width:950px;
+        }
+        .container3{
+            width:950px;
+        }
+        .heading h1{
+            font-size: 45px;
+        }
+        
+     }
+
+
+    
+</style>
+<body>
+  
+    <header>
+        
+           <!-- <logo class="logo1">  
+           <img src="https://i.pinimg.com/736x/57/94/f0/5794f05494e41a863267f00e91bbf2c2.jpg">  
+          </logo>    -->
+    <nav class="navbar">
+        <logo class="logo1">  
+            <img src="https://i.pinimg.com/736x/57/94/f0/5794f05494e41a863267f00e91bbf2c2.jpg">  
+           </logo> 
+
+        <ul>
+            
+            <li ><a href="http://127.0.0.1:5500/complete%20web%20development/marbel.html#">Home</a></li>
+            <li><a href="#">About +</a>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/complete%20web%20development/more.html"> More details</a></li>
+                <!-- <li><a href="#"> More details</a></li> -->
+            </ul>
+        </li>
+            <li><a href="#contact us" >Contact </a></li>
+        </ul>
+    </nav>
+       
+           
+</header>
+<div  class="container">
+    <div class="heading">
+     <h1> IDEAL MARBELS & GRANITE</h1>
+    </div>
+
+</div>
+<div class="container1">
+    <!-- <h1>about us </h1> -->
+    <div   class="natural"  id="about">
+       <img src="https://previews.123rf.com/images/danlersk/danlersk1706/danlersk170600024/79470395-marble-natural-background-marble-stone-background.jpg" >
+       <h1>Natural Marbel</h1>
+<p>Marble of the World’s accessories have the power & to enhance, elevate, empower, and soften your design. Go from the ordinary to the extraordinary, from the average to the sublime with just the right use of&nbsp;&nbsp; accessories and decorative elements from Marble of the World.</p>
+    </div>
+   
+    <div   class=" manmade"  id="about">
+        <img src="https://zameenblog.s3.amazonaws.com/blog/wp-content/uploads/2020/08/Natural-vs-Engineered-Stones-Cover-05-08-1170x508.jpg" >
+        <h1>Man Made </h1>
+ <p>Marble of the World’s accessories have the power to enhance, elevate, empower, and soften your design. Go from the ordinary to the extraordinary, from the average to the sublime with just the right&nbsp; &nbsp;suse of accessories and decorative elements from Marble of the World.</p>
+     </div>
+     <div   class="acessories"  id="about">
+        <img src="https://cb2.scene7.com/is/image/CB2/NexusBlkMrblCollectionFHS23/$web_pdp_main_carousel_md$/221006172252/nexus-black-marble-bath-accessories.jpg">
+        <h1>Acessories</h1>
+ <p>Marble of the World’s accessories have the power to enhance, elevate, empower, and soften your design. Go from the ordinary to the extraordinary, from the average to the sublime with just the right&nbsp;&nbsp; use of accessories and decorative elements from Marble of the World.</p>
+     </div>
+</div>
+ <div class="container2">
+    <div class="aboutus" id="us">
+        <h1> ABOUT US </h1>
+        <p> Marble is a metamorphic rock consisting of carbonate minerals that recrystallize under the influence of heat, pressure, and aqueous solutions (most commonly calcite (CaCO3) or dolomite (CaMg(CO3)2) and has a crystalline texture of varying thickness.[1] Marble is typically not foliated (layered), although there are exceptions.</p>
+       </div>
+       <div   class="about" id="us">
+        <img src="https://media.licdn.com/dms/image/D5612AQEKS7WY_nQmpA/article-cover_image-shrink_600_2000/0/1671176441771?e=2147483647&v=beta&t=h1aTbE26QsKI62cyYTbHKK26dJol4X00x9SlR926uLw">
+       </div>
+        </div>
+        <div class="container3">
+            <div class="contact"id="contact us">
+                <h1>Contact us</h1>
+                <p>MEHER ADEEL</p>
+                <p>0322-8661515</p>
+                
+                <a href="https://web.whatsapp.com/">0346-8661515<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw2f4vWNEdpsXDov-o-KM2UFXvfBF9IIQ1zA&usqp=CAU"></a>
+            </div>
+        </div>
+</body>
+</html>
